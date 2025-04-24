@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Kashyap - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Abhinav Kashyap</h1>
+            <p>B.Tech CSE (Cyber Security) Student</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://via.placeholder.com/150" alt="Abhinav Kashyap" class="profile-img">
+                <div class="about-text">
+                    <p>Hello! I'm Abhinav Kashyap, a passionate B.Tech Computer Science student specializing in Cyber Security at Lamrin Tech Skills University. I'm enthusiastic about web development and Cyber Security, constantly learning new technologies to enhance my skills.</p>
+                    <p>Currently in my final year with a CGPA of 7.43, I'm looking forward to applying my knowledge in real-world scenarios and contributing to innovative projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>Lamrin Tech Skills University</h3>
+                    <p>B.Tech Computer Science (Cyber Security)</p>
+                    <p>2020 - 2024</p>
+                    <p>CGPA: 7.43 (Till 6th Semester)</p>
+                </div>
+                <div class="education-item">
+                    <h3>12th Class</h3>
+                    <p>Board: CBSE</p>
+                    <p>Year: 2020</p>
+                    <p>Percentage: 74%</p>
+                </div>
+                <div class="education-item">
+                    <h3>10th Class</h3>
+                    <p>Board: CBSE</p>
+                    <p>Year: 2018</p>
+                    <p>Percentage: 75%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <div class="hobbies-container">
+                <div class="hobby-item">
+                    <i class="fas fa-book"></i>
+                    <p>Reading</p>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-gamepad"></i>
+                    <p>Online Gaming</p>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-music"></i>
+                    <p>Music Listening</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +91 639559955</p>
+                <p><i class="fas fa-envelope"></i> jrallfact@gmail.com</p>
+                <p><i class="fas fa-university"></i> Lamrin Tech Skills University</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Abhinav Kashyap. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
